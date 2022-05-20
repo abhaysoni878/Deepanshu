@@ -1,0 +1,22 @@
+class Buffalo
+{
+	int x=4;    //instance Variable
+	static int y;
+	public void Prize()
+	{
+	}
+	public static void colour()
+	{
+
+	}
+
+}
+class  Animal
+{
+	public static void main(String[] args) 
+	{
+		Buffalo BX=new Buffalo();
+		BX.Colour.y=5;
+		System.out.println("Hello World!");
+	}
+}
